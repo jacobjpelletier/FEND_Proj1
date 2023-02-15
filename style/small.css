@@ -1,4 +1,4 @@
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 600px) {
     .container {
         width: 100% !important;
     }
@@ -70,4 +70,5 @@
         display: flex;
         flex-direction: column;
     }
+     
 }
