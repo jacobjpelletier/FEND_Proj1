@@ -1,0 +1,105 @@
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 100% !important;
+    }
+
+    .hero {
+        display: flex;
+        justify-content: space-around;
+        overflow: hidden;
+        align-items: center;
+        flex-direction: row;
+        padding: 5% 5%;
+        z-index: 1;
+    }
+
+    .heroImg {
+        width: 60%;
+        height: 60%;
+        border-radius: 40% 10%;
+        justify-self: start;
+        z-index: 2;
+    }
+    
+    .greet {
+        padding: 5%;
+        z-index: 2;
+    }
+
+    .box1 {
+        background: #7ef2f2;
+        opacity: 0.3;
+        height: 70%;
+        width: 70%;
+        position: absolute;
+        border-radius: 40% 10%;
+        margin: 0 0% 0% 50%;
+        rotate: 90 deg;
+    }
+
+    .box2 {
+        background: red;
+        opacity: 0.3;
+        height: 70%;
+        width: 70%;
+        position: absolute;
+        border-radius: 40% 10%;
+        margin: 0 0% 0 0%;
+        rotate: 45 deg;
+    }
+    .box3 {
+        background: green;
+        opacity: 0.3;
+        height: 70%;
+        width: 70%;
+        position: absolute;
+        border-radius: 40% 10%;
+        margin: 0% 50% 0% 0%;
+    }
+    .button-box {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        padding: 5%;
+        z-index: 2;
+        background: white;
+    }
+
+    .button {
+        padding: 2% 8%;
+        background: green;
+        opacity: 0.6;
+        border-radius: 10px;
+        color: white;
+        border: black;
+        border-style: solid;
+        box-shadow: 2px 2px 2px gray;
+        margin: 1rem;
+    }
+    
+    .button:hover {
+        background: #7ef2f2;
+        opacity: 0.6;
+        color: black;
+        cursor: grab;
+    }
+
+    .index-bottom{
+        padding: 10%;
+    }
+
+    .index-info {
+        display: grid;
+        gap: 0.5rem;
+        width: 100vw;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .form {
+        padding: 10%;
+        display: flex;
+        flex-direction: column;
+    }
+}
