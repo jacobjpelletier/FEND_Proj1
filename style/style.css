@@ -130,13 +130,13 @@
 }
 
 .social-link {
-    padding: 0.5rem;
+    padding: 1rem;
     border-radius: 10px;
     border: none;
     background: green;
     color: white;
     font-weight: bolder;
-    font-size: 1rem;
+    font-size: 2rem;
     margin: 1rem;
 }
 
@@ -258,6 +258,7 @@ section {
 
 .post-link {
     text-decoration: none;
+    font-size: 4rem;
     padding: 1rem;
     color: #7ef2f2;
 }
@@ -273,4 +274,52 @@ section {
     color: black;
     border-radius: 10px;
     padding: 4rem;
+}
+
+/* Post */
+
+.post-page {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.post-page-post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background: #000111;
+    padding: 10%;
+}
+
+.post-page-post-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background: #000111;
+}
+
+.post-page-post-bottom {
+    font-size: 1.5rem;
+}
+
+.post-page-author {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background: #000111;
+    padding: 10%;
+    background: white;
+    color: black;
+    font-size: 3rem;
+
 }
